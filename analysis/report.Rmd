@@ -56,7 +56,7 @@ extrafont::loadfonts(device="all", quiet = TRUE)
 
 # load data (keep this as-is)
 
-resultsPath = "./results"
+resultsPath = "../results"
 
 loadData <- function(path, subPath) {
   return(read.csv2(paste(path,subPath,".csv", sep=""), sep=",", check.names = FALSE))
